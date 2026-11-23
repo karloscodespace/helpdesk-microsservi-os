@@ -7,6 +7,7 @@ import os
 
 from sqlalchemy.orm import Session
 
+
 from app.chamados import servico as chamados
 from app.chamados.esquemas import ChamadoCriar
 from app.inventario import servico as inventario
