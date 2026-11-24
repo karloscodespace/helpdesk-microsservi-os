@@ -1,8 +1,8 @@
-"""Acesso a dados do módulo de inventário (uso interno do módulo)."""
+"""Acesso a dados do microsserviço de inventário."""
 from sqlalchemy import select
 from sqlalchemy.orm import Session
 
-from app.servicos.inventario.inventario.modelos import Ativo
+from app.inventario.modelos import Ativo
 
 
 def salvar(db: Session, ativo: Ativo) -> Ativo:

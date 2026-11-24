@@ -1,10 +1,10 @@
-"""Regras do módulo de inventário. É a porta pública do módulo."""
+"""Regras de negócio do microsserviço de inventário."""
 from sqlalchemy.orm import Session
 
 from app.erros import NaoEncontrado, RegraDeNegocio
-from app.servicos.inventario.inventario import repositorio
+from app.inventario import repositorio
 from app.inventario.esquemas import AtivoCriar
-from app.servicos.inventario.inventario.modelos import Ativo
+from app.inventario.modelos import Ativo
 
 
 def criar(db: Session, dados: AtivoCriar) -> Ativo:
