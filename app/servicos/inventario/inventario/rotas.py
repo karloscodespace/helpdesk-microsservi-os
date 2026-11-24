@@ -3,7 +3,7 @@ from sqlalchemy.orm import Session
 
 from app.auth.dependencias import exigir_perfil, usuario_atual
 from app.database import get_db
-from app.inventario import servico
+from app.servicos.inventario.inventario import servico
 from app.inventario.esquemas import AtivoCriar, AtivoSaida
 
 router = APIRouter(prefix="/ativos", tags=["Inventário"])

@@ -18,7 +18,7 @@ from app.chamados.rotas import router as chamados_router
 from app.config import DOCS_ATIVA
 from app.database import Base, SessionLocal, engine
 from app.erros import NaoEncontrado, RegraDeNegocio, SemPermissao
-from app.inventario.rotas import router as inventario_router
+from app.servicos.inventario.inventario.rotas import router as inventario_router
 from app.notificacoes.rotas import router as notificacoes_router
 from app.seguranca_http import CabecalhosDeSeguranca
 from app.usuarios.rotas import router as usuarios_router

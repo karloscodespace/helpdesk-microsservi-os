@@ -2,7 +2,7 @@
 from sqlalchemy import select
 from sqlalchemy.orm import Session
 
-from app.inventario.modelos import Ativo
+from app.servicos.inventario.inventario.modelos import Ativo
 
 
 def salvar(db: Session, ativo: Ativo) -> Ativo:

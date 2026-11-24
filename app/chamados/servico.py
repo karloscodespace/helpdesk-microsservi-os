@@ -17,7 +17,7 @@ from app.chamados import repositorio
 from app.chamados.esquemas import ChamadoCriar, ComentarioCriar
 from app.chamados.modelos import Chamado, Comentario
 from app.erros import NaoEncontrado, RegraDeNegocio, SemPermissao
-from app.inventario import servico as inventario
+from app.servicos.inventario.inventario import servico as inventario
 from app.notificacoes import servico as notificacoes
 from app.usuarios import servico as usuarios
 from app.usuarios.modelos import Usuario
