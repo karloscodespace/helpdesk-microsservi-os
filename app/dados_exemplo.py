@@ -10,7 +10,7 @@ from sqlalchemy.orm import Session
 
 from app.chamados import servico as chamados
 from app.chamados.esquemas import ChamadoCriar
-from app.servicos.inventario.inventario import servico as inventario
+from app.servicos.inventario.app.inventario import servico as inventario
 from app.inventario.esquemas import AtivoCriar
 from app.usuarios import servico as usuarios
 from app.usuarios.esquemas import UsuarioCriar
