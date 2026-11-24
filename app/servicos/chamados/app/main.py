@@ -4,8 +4,9 @@ from fastapi import FastAPI
 
 from app.config import DOCS_ATIVA
 from app.database import Base, engine
-from app.chamados import modelos
+from app.chamados import modelos, notificacao_modelo
 from app.chamados.rotas import router as chamados_router
+from app.chamados.notificacao_rotas import router as notificacoes_router
 
 
 @asynccontextmanager
@@ -33,3 +34,4 @@ def saude():
 
 
 app.include_router(chamados_router)
+app.include_router(notificacoes_router)
