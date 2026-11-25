@@ -1,5 +1,7 @@
 # HelpDesk TI — Arquitetura de Microsserviços
 
+LINK DO VIDEO: https://youtu.be/RIyXvb9ZwM4
+
 Sistema de chamados de TI desenvolvido em **Python, FastAPI e Docker**, refatorado de uma arquitetura monolítica para microsserviços independentes.
 
 Projeto desenvolvido para a disciplina de **Arquitetura de Software**, sob orientação do Prof. Filipe Cavalcante.
